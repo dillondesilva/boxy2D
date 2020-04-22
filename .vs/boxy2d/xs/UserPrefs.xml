@@ -1,15 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.ItemProperties.boxy2d FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="boxy2d/EmptyClass.cs">
     <Files>
-      <File FileName="boxy2d/Class1.cs" Line="17" Column="35" />
+      <File FileName="boxy2d/Body.cs" Line="6" Column="6" />
+      <File FileName="boxy2d/EmptyClass.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="boxy2d" expanded="True">
             <Node name="boxy2d" expanded="True">
-              <Node name="Body.cs" selected="True" />
+              <Node name="EmptyClass.cs" selected="True" />
             </Node>
           </Node>
         </State>

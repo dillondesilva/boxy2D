@@ -1,20 +1,25 @@
-﻿using System;
+﻿using Boxy2DMath;
 
-namespace Body
+namespace Boxy2D
 {
-    public class MotionCalculations
+    public class BoxBody
     {
-        public float GetNetForce(float Mass, float Acceleration)
-        {
-            float NetForce = Mass * Acceleration;
-            return NetForce;
-        }
-    }
 
-    public class Box : MotionCalculations
-    {
+        // A body within this 2D Physics engine must have three
+        // key properties which are:
+        //      - Mass  (
+        //      - Velocity (Speed)
+        //      - Position (A 2D Vector)
+
         public float Mass;
-        public float Acceleration;
-        public float Position;
+        public float Velocity;
+        public Vector2D Position;
+
+        public BoxBody(float InitialMass, float InitialVelocity, Vector2D InitialPosition)
+        {
+            Mass = InitialMass;
+            Velocity = InitialVelocity;
+            Position = InitialPosition;
+        }
     }
 }
